@@ -71,7 +71,7 @@ class userController extends Controller {
         ]);
 
         if ($user -> tipo_cuenta === 'admin'){
-            return redirect () -> route ('admin.show');
+            return redirect () -> route ('admin');
         }
         
         Auth::login ($user);
