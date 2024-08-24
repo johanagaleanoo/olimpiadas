@@ -1,0 +1,31 @@
+body {
+    background-color: #212121;
+    text-align: center;
+    color: white;
+}
+.card {
+    background-color: #212121;
+    border-color: white;
+    color: white;
+    position: column;
+}
+#card_register_login {
+    width: 400px;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+#btn_compra {
+    background-color: #212121;
+    border-color: white;
+}
+#btn_link {
+    text-decoration: none;
+    color: white;
+}
+#input_cantidad, #input_email, #input_password, #input_usuario, #confirm_input_password, #codigo_tarjeta, #expiracion_tarjeta, #nombre_tarjeta, #numero_tarjeta {
+    background-color: #212121;
+    border-color: white;
+    color: white;
+} 
