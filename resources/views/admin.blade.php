@@ -45,7 +45,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($productos as $producto)
+                    @foreach ($pedidos as $pedido)
                     <tr class="table-secondary">
                         <td>
                             <a href="{{ route('admin.show', ['id' => $pedido -> id]) }}" class="btn btn-outline-info">
