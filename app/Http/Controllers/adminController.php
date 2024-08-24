@@ -9,7 +9,7 @@ use App\Models\productos;
 
 class adminController extends Controller {
     public function show (Request $request){
-        $pedidos= pedidos -> with ('producto') -> get ();
+        $pedidos= pedidos::with ('producto') -> get ();
 
         return view ('admin.pedidos', compact ('pedidos'));
     }
